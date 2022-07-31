@@ -158,7 +158,7 @@ i {
     margin-right: 46px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 674px) {
     .right-section {
         width: 100%;
     }
