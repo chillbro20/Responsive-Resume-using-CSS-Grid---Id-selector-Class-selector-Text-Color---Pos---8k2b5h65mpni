@@ -167,18 +167,6 @@ i {
         padding: 2.5rem;
     }
 
-    .social-media {
-        margin: 0 9rem;
-    }
-
-    .personal-details {
-        padding: 8px 32px;
-    }
-
-    .skills {
-        padding: 16px 35px;
-    }
-
 
     .main-content {
         grid-template-columns: repeat(1, 1fr);
@@ -187,10 +175,20 @@ i {
     }
 
     .description {
-        font-size: 13px;
+        font-size: 0.8rem;
     }
 
+    .social-media {
+        margin: 0 9rem;
+    }
 
+    .personal-details {
+        padding: 0.5rem 2rem;
+    }
+
+    .skills {
+        padding: 16px 35px;
+    }
 
     .right-main-content {
         padding-top: 25px;
