@@ -1,9 +1,133 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.main-content {
+    display: grid;
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    grid-template-columns: 300px 700px;
+  }
+  
+  .left-section {
+    grid-column: span 1;
+    background-color: rgba(4, 233, 126, 0.74);
+  }
+  
+  .right-section {
+    grid-column: span 1 / span 2;
+    background-color: #f7f7f7;
+  }
+  .left-content {
+    padding: 1rem;
+  }
+  .name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    color: #f7f7f7;
+  }
+  
+  .designation {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    color:  #0316149b;
+  }
+  
+  .description {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: #f7f7f7;
+  } 
+  
+  .right-main-content {
+    padding: 2rem 3rem;
+  }
+  
+  .profile-image {
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+  }
 
+  .social-media {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin: 0px 40px;
+  }
+  
+  .social-media li i:hover {
+    color: rgba(128, 103, 103, 0.712);
+    cursor: pointer;
+  }
+  
+  i {
+    color: #189ab4;
+    margin-right: 4px;
+    padding: 5px;
+  }
+
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+
+}
+.skill-name{
+    font-size: 0.65rem;
+    text-align: left;
+    color: #189ab4;
+    padding-bottom: 8px;
+}
+    
+.progress-bar{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    height: 4px;
+}
+
+.right-title {
+    font-size: 1.2rem;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px;
+}
+.education-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-flex h4 {
+    font-size: 0.85rem;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px;
+}
+
+
+/* .left {
+    font-size: 0.85rem;
+    display: block;
+    margin: 0;
+    padding-left: 8px;
+    text-align: left;
+    color: #4a4a4a;
+  } */
 /* Write CSS code below */
