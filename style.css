@@ -20,7 +20,7 @@
   
   .right-section {
     grid-column: span 1 / span 2;
-    background-color: #f7f7f7;
+    background-color: azure;
   }
   .left-content {
     padding: 1rem;
@@ -108,7 +108,48 @@
     letter-spacing: 1px;
     padding: 8px;
 }
-.education-flex {
+.about-section p{
+    padding: 8px;
+}
+.education-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.education-flex p {
+    font-size: 14px;
+    color:#0316149b;
+}
+
+.experience-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.experience-flex p{
+    font-size: 14px;
+    color: #0316149b;
+}
+.experience-content{
+    padding: 8px;
+    font-weight: 50px;
+}
+
+
+.project-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+
+.project-content{
+    font-size: 15px;
+    margin-right: 46px;
+}
+/* .education-flex {
     display: flex;
     justify-content: space-between;
 }
@@ -120,6 +161,20 @@
     letter-spacing: 1px;
     padding: 8px;
 }
+
+.education-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-flex h4 {
+    font-size: 0.85rem;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px;
+} */
+
 
 
 /* .left {
