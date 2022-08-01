@@ -12,7 +12,8 @@
     min-height: 1000px;
     width: 90%;
     margin: 20px auto;
-    grid-template-columns: 300px 700px;
+    grid-template-columns: 300px 1000px;
+
 }
 
 .left-section {
@@ -145,13 +146,11 @@ i {
     font-weight: 50px;
 }
 
-
 .project-flex {
     display: flex;
     justify-content: space-between;
     margin: 8px;
 }
-
 
 .project-content {
     font-size: 15px;
