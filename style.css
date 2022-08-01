@@ -159,7 +159,7 @@ i {
 }
 
 @media screen and (max-width: 674px) {
-    .right-section {
+    /* .right-section {
         width: 100%;
     }
 
@@ -173,14 +173,14 @@ i {
 
     .social-media {
         margin: 0 9rem;
-    }
+    } */
     .main-content {
         grid-template-columns: repeat(1, 1fr);
         width: 90%;
         min-height: 1000px;
     }
 
-    .personal-details {
+    /* .personal-details {
         padding: 0.5rem 2rem;
     }
 
@@ -191,5 +191,5 @@ i {
     .right-main-content {
         padding-top: 25px;
         padding-bottom: 25px;
-    }
+    } */
 }
