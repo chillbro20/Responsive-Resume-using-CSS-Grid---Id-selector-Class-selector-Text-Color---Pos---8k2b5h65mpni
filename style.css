@@ -12,8 +12,8 @@
     min-height: 1000px;
     width: 90%;
     margin: 20px auto;
-    grid-template-columns: 300px 1000px;
-
+    grid-template-columns: 300px 700px;
+    
 }
 
 .left-section {
@@ -97,7 +97,7 @@ i {
     font-size: 0.65rem;
     text-align: left;
     color: #189ab4;
-    padding-bottom: 8px;
+    padding: bottom 0.5rem;
 }
 
 .progress-bar {
@@ -112,7 +112,9 @@ i {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 8px;
+    font-weight: 700;
+    padding: 0.5rem;
+    
 }
 
 .about-section p {
